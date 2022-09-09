@@ -1,0 +1,154 @@
+/* Селектор ID */
+#text-red{
+	color:#ff0000;
+}
+#text-black{
+	color:#00000076;
+}
+#text-green{
+	color:#7fff00;
+}
+#text-blue{
+	color:#0000ff;
+}
+#red-text{
+	color:#de1a1a;
+}
+#black-text{
+	color: #140707;
+}
+#green-text{
+	color: #152703;
+}
+#blue-text{
+	color: #0f0f84;
+}
+/* Селектор класу */
+.wrapper {}
+
+.header {}
+
+.header-title {}
+
+.nav {}
+
+.list {
+}
+
+.item {}
+
+.link {
+}
+.list li > a{
+	color:#428f50;
+}
+.sublist {}
+
+.main {}
+
+.block-header {}
+
+.block-header-title {}
+.block-header .block-header-title {
+	color:#26269e7a;
+}
+
+.block-header-subtitle {}
+
+.block-header-image {}
+
+.block-text span{
+	color:#ffff00;
+}
+.block-text-title {}
+
+.block-list {}
+
+.block-list-title {}
+
+.block-list-list {}
+
+.block-list-sublist {}
+
+.block-bottom {}
+
+.block-bottom-title {}
+
+.white {
+	color:#dcdcdc;
+}
+
+.footer {}
+/* Селектор тегу */
+p{
+	color:#ff00ff;
+}
+div{
+	color: #114046;
+}
+span{
+	color: #7ec63f;
+}
+a{
+	color: #ff5e00;
+}
+ul li{
+	color:#37a1af;
+}
+ol li{
+	color:#b06565;
+}
+div p{
+	color:rgb(121, 54, 9);
+}
+p span{
+	color:#5b3a3a8a;
+}
+div.block.block-text p{
+	color:#37a1af;
+}
+div.block.block-text + p {
+	color: #179e30;
+}
+div .block-bottom > a{
+	color:pink;
+}
+.block-text ~ span.span{
+	color:#37421e;
+}
+div .block-bottom ul.block-bottom-list a{
+	color:#a80f0f;
+}
+div .block-bottom ul.block-bottom-list ~ a.link {
+	color: #948989;
+}
+div .block-header > p{
+	color:#23a73d;
+}
+div .block-header >p +span {
+	color: #b23333;
+}
+div .block-header>p+span ~ a{
+	color: #116152;
+}
+div .block.block-text > a{
+	color:#bd571b;
+}
+div .block.block-text p+ a{
+	color:#ffd700;
+}
+div .block.block-text p ~ div > a{
+	color:#d14cd1;
+}
+div .block.block-text p ~ div > p{
+	color:#e9967a;
+}
+div .block.block-text p ~ div > p > a{
+	color:#4c9058;
+}
+div .block.block-text p ~ div > p + span{
+	color:#de1a1a;
+}
+div .block.block-text div > p > span {
+	color:rgb(54, 54, 206);
+}
